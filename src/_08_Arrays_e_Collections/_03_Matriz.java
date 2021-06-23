@@ -20,8 +20,8 @@ public class _03_Matriz {
             for (int n = 0; n < notasDaTurma[a].length; n++) {
                 System.out.printf("Informe a nota %d do aluno %d ", n + 1, a + 1);
                                                                     /*anotação +1 foi para
-                                                                    formalizar o print do pedido*/
-
+                                                                    formalizar o print
+                                                                    do pedido*/
                 notasDaTurma[a][n] = entrada.nextDouble();
                 total += notasDaTurma[a][n];
             }
@@ -31,8 +31,8 @@ public class _03_Matriz {
         System.out.println("Média da turma é " + media);
 
                     /*criar FOR com double [] notasDoAluno percorrerá o arrray notasDaTurma
-                    *e irá imprimir de acordo com a linha
-                    * (primeira linha == notas do aluno 0, segunda linha == notas do aluno 1) */
+                    e irá imprimir de acordo com a linha
+                    (primeira linha == notas do aluno 0, segunda linha == notas do aluno 1) */
         for (double[] notasDoAluno : notasDaTurma) {
             System.out.println(Arrays.toString(notasDoAluno));
         }

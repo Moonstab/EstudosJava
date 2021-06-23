@@ -23,5 +23,11 @@ public class _04_calculo_conversor_2 {
         dollar = 5.57;
         conv = real * dollar;
         System.out.println("O valor do real em dolar na data 21/04/2021 às 14h55 é " + conv);
+
+        real = 1;
+        dollar = 5.06;
+        conv = real * dollar;
+        System.out.println("O valor do real em dolar na data 09/06/2021 às 20h05 é " + conv);
+
     }
 }
