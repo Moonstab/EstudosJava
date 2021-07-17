@@ -2,7 +2,7 @@ package _02_Fundamentos_Desafios;
 
 import java.util.Scanner;
 
-public class desafio_conta_de_luz_apartamento {
+public class Desafio_Conta_Luz {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

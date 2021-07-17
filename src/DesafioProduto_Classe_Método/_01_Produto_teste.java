@@ -1,4 +1,4 @@
-package _05_Classe_Métodos;
+package DesafioProduto_Classe_Método;
 
 //utilização do tipo PRODUTO criado previamente
 public class _01_Produto_teste {

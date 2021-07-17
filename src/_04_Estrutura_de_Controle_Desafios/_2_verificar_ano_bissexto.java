@@ -14,7 +14,7 @@ public class _2_verificar_ano_bissexto {
         int bissexto = ano % 4;
         if (bissexto == 0) {
             System.out.println(ano + " é um ano Bissexto");
-        }else {
+        } else {
             System.out.println(ano + " não é um ano Bissexto");
         }
         System.out.println("Fim!");

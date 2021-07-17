@@ -7,20 +7,20 @@ public class _4_verificar_num_primo {
         System.out.println("verificador se o números que\n" +
                 "você insere é um número primo");
 
-        int contadorDEdivisores = 0;
+        int ContadorDivisores = 0;
         Scanner entrada = new Scanner(System.in);
         int a = entrada.nextInt();
 
-        for(int i = 2; i< a; i++){
-            if (a % i == 0){
-                contadorDEdivisores++;
+        for (int i = 2; i < a; i++) {
+            if (a % i == 0) {
+                ContadorDivisores++;
             }
         }
-        if (contadorDEdivisores == 0){
-             System.out.println("\nO número "+ a +" é primo");
-         } else {
-             System.out.println("\nO número "+ a +" não é primo");
-         }
+        if (ContadorDivisores == 0) {
+            System.out.println("\nO número " + a + " é primo");
+        } else {
+            System.out.println("\nO número " + a + " não é primo");
+        }
         System.out.println("Fim");
         entrada.close();
     }

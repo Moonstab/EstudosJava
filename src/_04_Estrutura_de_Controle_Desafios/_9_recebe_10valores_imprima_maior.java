@@ -13,7 +13,7 @@ public class _9_recebe_10valores_imprima_maior {
             System.out.println("\nDigite um número ");
             int valor = entrada.nextInt();
 
-            if (valor > maior){
+            if (valor > maior) {
                 maior = valor;
             }
 

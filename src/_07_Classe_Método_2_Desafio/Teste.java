@@ -1,7 +1,7 @@
 package _07_Classe_Método_2_Desafio;
 
 
-public class _01_teste {
+public class Teste {
     public static void main(String[] args) {
         Jogo j1 = new Jogo("Cyberpunk 2077", 75, 200);
 
